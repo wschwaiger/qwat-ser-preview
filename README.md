@@ -11,3 +11,4 @@ This tool is not affiliated with Google nor endorsed by them. The Google logo an
 Just go to https://github.com/wschwaiger/qwat-ser-preview/issues and let us know what is missing or not working.
 
 ## Help us to keep this extension alive - [Donate via PayPal](https://www.paypal.me/wschwaiger)
+

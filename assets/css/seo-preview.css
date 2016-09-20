@@ -1,0 +1,30 @@
+.google-preview {
+    width: 96%;
+    margin: 0 auto;
+    padding-top: 13px;
+}
+
+.google-preview .google__title {
+    min-height: 21px;
+    display: block;
+    font-size: 18px;
+    color: #1a0dab;
+    line-height: 21px;
+    margin-bottom: 2px;
+}
+
+.google-preview .google__url {
+    display: block;
+    word-wrap: break-word;
+    color: #006621;
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 2px;
+}
+
+.google-preview .google__description {
+    display: block;
+    color: #545454;
+    line-height: 18px;
+    font-size: 13px;
+}
