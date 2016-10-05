@@ -64,9 +64,11 @@ class SerPreview extends \Backend
             } elseif (\Config::get('addLanguageToUrl') && !\Config::get('rewriteURL')) {
                 // example: "index.php/en/home.html"
                 $lang = substr($url, 0, 13);
-            } else {
+            } elseif (!\Config::get('addLanguageToUrl') && !\Config::get('rewriteURL')) {
                 // both options are disabled. example: "index.php/home.html"
                 $lang = substr($url, 0, 10);
+            } else {
+                $lang = "";
             }
             
             /* prepare code to be inserted */
